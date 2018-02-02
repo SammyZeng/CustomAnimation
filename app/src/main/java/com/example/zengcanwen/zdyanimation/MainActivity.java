@@ -15,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageView imageView = (ImageView)findViewById(R.id.image_view1) ;
-        ImageView imageView2 = (ImageView)findViewById(R.id.image_view2) ;
-        ImageView imageView3 = (ImageView)findViewById(R.id.image_view3) ;
-        ImageView imageView4 = (ImageView)findViewById(R.id.image_view4) ;
-        ImageView imageView5 = (ImageView)findViewById(R.id.image_view5) ;
-        ImageView imageView6 = (ImageView)findViewById(R.id.image_view6) ;
+        ImageView imageView = findViewById(R.id.image_view1) ;
+        ImageView imageView2 = findViewById(R.id.image_view2) ;
+        ImageView imageView3 = findViewById(R.id.image_view3) ;
+        ImageView imageView4 = findViewById(R.id.image_view4) ;
+        ImageView imageView5 = findViewById(R.id.image_view5) ;
+        ImageView imageView6 = findViewById(R.id.image_view6) ;
         setAnimation(imageView , MyAnimation.LEFT);
         setAnimation(imageView2 , MyAnimation.LEFT);
         setAnimation(imageView3 , MyAnimation.LEFT);
